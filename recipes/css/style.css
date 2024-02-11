@@ -1,0 +1,65 @@
+/* Resetting some default browser styles */
+body, h1, h2, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 36px;
+}
+img{
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#Desc {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#Desc h2 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+#Desc p {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.4; /* Improved line height for better readability */
+}
+
+#Desc ul, #Desc ol {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#Desc li {
+    color: #666;
+    margin-bottom: 10px;
+}
+
